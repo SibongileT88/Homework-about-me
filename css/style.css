@@ -83,3 +83,23 @@ p {
 .email-link:hover {
   text-decoration: underline;
 }
+@media (max-width: 768px) {
+  h1,
+  h2 {
+    text-align: center;
+    font-size: 18px;
+  }
+  .exercise {
+    max-width: 40px;
+  }
+  .card-text {
+    font-size: 14px;
+    text-align: left;
+  }
+  .email-link {
+    font-size: 12px;
+  }
+  .job-title {
+    font-size: 14px;
+  }
+}
